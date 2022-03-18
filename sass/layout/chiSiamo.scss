@@ -1,0 +1,23 @@
+.chiSiamo-logo {
+  img {
+    border-radius: 50%;
+    border: 5px solid #555;
+    max-width: 40%;
+    min-width: 20%;
+  }
+  @media (max-width: 320px) {
+    width: 220px;
+  }
+}
+
+.chiSiamo {
+  text-align: center;
+  padding: 8rem;
+  background-color: #eeede8;
+  position: relative;
+  z-index: 99999;
+}
+
+.chiSiamo-text {
+  padding: 3em;
+}

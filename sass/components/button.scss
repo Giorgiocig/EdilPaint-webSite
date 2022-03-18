@@ -1,0 +1,39 @@
+@use "../abstract/color.scss" as *;
+
+.btn {
+  display: inline-block;
+  padding: 1em 3em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:not(:last-of-type) {
+    margin-bottom: 1em;
+  }
+  @media (max-width: 320px) {
+    display: block;
+    padding: 0.5em;
+  }
+}
+
+.btn--primary {
+  background: $accent;
+  color: $secondary;
+  border: 2px solid $accent;
+  margin-right: 1em;
+
+  &:hover,
+  &:focus {
+    background: darken($color: $accent, $amount: 15);
+  }
+}
+
+.btn--secondary {
+  background: $secondary;
+  color: black;
+  border: 2px solid $secondary;
+
+  &:hover,
+  &:focus {
+    background: darken($color: $secondary, $amount: 15);
+  }
+}

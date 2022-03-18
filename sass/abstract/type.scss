@@ -1,0 +1,15 @@
+//font
+$font-primary: "Raleway", sans-serif;
+$font-secondary: "Merriweather", serif;
+
+//font weight
+
+$font-normal: 400;
+$font-bold: 700;
+$font-black: 900;
+
+//font mixin
+@mixin font($weight) {
+  font-family: $font-primary;
+  font-weight: $weight;
+}

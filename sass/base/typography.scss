@@ -1,0 +1,58 @@
+@use "../abstract/type.scss" as *;
+
+.title-centered {
+  text-align: center;
+  padding: 3em;
+  @media (max-width: 720px) {
+    padding: 1em;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0 0.75em;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child {
+  margin: 0;
+}
+
+.title-hero {
+  font-size: 2rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+
+  @media (max-width: 720px) {
+    font-size: 1rem;
+  }
+}
+
+p,
+li {
+  font-family: $font-secondary;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $font-primary;
+}
+
+.text_p {
+  line-height: 2em;
+}
+
+.text_p-whyus {
+  margin-bottom: 2em;
+}
