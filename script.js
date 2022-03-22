@@ -5,6 +5,7 @@ const button = document.querySelector(".nav-toggle");
 const hamburgerIcon = document.querySelector(".hamburger");
 const heroText = document.querySelector(".container-hero");
 const review = document.querySelector(".review4");
+const panels = document.querySelectorAll(".panel");
 
 button.addEventListener("click", function () {
   nav.classList.toggle("is-open");
@@ -52,6 +53,7 @@ document
 
 //IMPLEMENTARE
 //Fade revealing
+/*
 const allSections = document.querySelectorAll(".fadeClass");
 
 const revealSection = function (entries, observer) {
@@ -73,3 +75,17 @@ allSections.forEach(function (section) {
   sectionObserver.observe(section);
   section.classList.add("section--hidden");
 });
+*/
+//CARDS ANIMATION
+panels.forEach((el) => {
+  el.addEventListener("click", function () {
+    removeActiveClasses();
+    el.classList.add("active");
+  });
+});
+
+const removeActiveClasses = () => {
+  panels.forEach((el) => {
+    el.classList.remove("active");
+  });
+};
