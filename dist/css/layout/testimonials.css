@@ -1,0 +1,22 @@
+.testimonials {
+  padding: 5rem;
+}
+@media (max-width: 725px) {
+  .testimonials {
+    padding: 2.5em;
+  }
+}
+
+.review {
+  padding: 2em;
+}
+@media (max-width: 725px) {
+  .review {
+    padding: 1em;
+  }
+}
+.review-bg {
+  background-color: #eeede8;
+}
+
+/*# sourceMappingURL=testimonials.css.map */

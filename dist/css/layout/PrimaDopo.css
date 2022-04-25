@@ -1,0 +1,72 @@
+.primaDopo-text {
+  text-align: center;
+  padding: 2em;
+}
+@media (max-width: 320px) {
+  .primaDopo-text {
+    padding: 1em;
+  }
+}
+
+.image-primaDopo img {
+  border-radius: 15%;
+  object-fit: cover;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+}
+
+.image-primaDopo {
+  max-width: 40%;
+  margin-bottom: 3rem;
+}
+@media (max-width: 320px) {
+  .image-primaDopo {
+    max-width: 100%;
+  }
+}
+
+.container-ExpandingCards {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+@media (max-width: 720px) {
+  .panel:nth-last-of-type(5) {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .panel:nth-last-of-type(4) {
+    display: none;
+  }
+}
+.panel h3 {
+  position: absolute;
+  color: white;
+  bottom: 20px;
+  left: 10px;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+.panel.active {
+  flex: 5;
+}
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+/*# sourceMappingURL=PrimaDopo.css.map */

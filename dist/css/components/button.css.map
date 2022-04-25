@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../../sass/components/button.scss","../../../sass/abstract/color.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;;AAEA;EACE;;AAEF;EATF;IAUI;IACA;;;;AAIJ;EACE,YCfO;EDgBP,OClBU;EDmBV;EACA;;AAEA;EAEE;;;AAIJ;EACE,YC7BU;ED8BV;EACA;;AAEA;EAEE","file":"button.css"}

@@ -1,0 +1,10 @@
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+.animation {
+  transition: transform 1s, opacity 1s;
+}
+
+/*# sourceMappingURL=animations.css.map */
